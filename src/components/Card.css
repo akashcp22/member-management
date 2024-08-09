@@ -1,0 +1,63 @@
+/* Card container styling */
+.member-card {
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card title styling */
+  .member-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  /* Card text styling */
+  .member-card .card-text {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
+  /* Buttons container styling */
+  .member-card .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Edit button */
+  .member-card .btn-edit {
+    border: 2px solid #28a745;
+    color: #28a745;
+    padding: 5px 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .member-card .btn-edit:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Delete button */
+  .member-card .btn-delete {
+    border: 2px solid #dc3545;
+    color: #dc3545;
+    padding: 5px 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .member-card .btn-delete:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
